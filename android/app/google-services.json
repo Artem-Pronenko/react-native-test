@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "562103321119",
+    "project_id": "react-native-test-chat",
+    "storage_bucket": "react-native-test-chat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:562103321119:android:594fcf2fda27a213d1cb2a",
+        "android_client_info": {
+          "package_name": "com.react.reactnativetest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "562103321119-4d091d25tbl5lle8d0hqebh4uo4fmcc7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDA_zUH3xbdD0yJVkyLDAr-6hgHRTqxFqw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "562103321119-4d091d25tbl5lle8d0hqebh4uo4fmcc7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
