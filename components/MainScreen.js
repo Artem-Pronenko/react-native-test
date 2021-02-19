@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import styled from 'styled-components';
 import {Button} from 'react-native-elements';
 
-const City = ({location, current}) => {
+const MainScreen = ({location, current}) => {
   const [showDetails, setShowDetails] = useState(false);
 
   return (
@@ -24,7 +24,7 @@ const City = ({location, current}) => {
       </TempText>
 
       <Button
-        title={'Show details'}
+        title={!showDetails ? 'Show details' : 'Hide details'}
         onPress={() => setShowDetails(!showDetails)}
       />
       {showDetails && (
@@ -79,4 +79,5 @@ const Small = styled.Text`
 `;
 
 const DetailsBlock = styled.View``;
-export default City;
+
+export default MainScreen;
